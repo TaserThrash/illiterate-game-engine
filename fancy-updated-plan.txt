@@ -1,0 +1,28 @@
+Overview:
+
+Purpose: To empower everyone, regardless of reading or writing ability, to create games using a purely visual interface.
+
+Key Features:
+
+Visually Driven Creation: Interact with icons, animations, and drag-and-drop features for effortless game design.
+Object and Button Crafting:
+Draw objects with diverse shapes and properties (gravity, bounce, mass).
+Design interactive buttons with customizable appearance and actions.
+World Arrangement:
+Position and resize objects within the game world.
+Camera Control: Explore your creation freely by scrolling with your finger or mouse.
+Focus on specific objects by locking the camera onto them (except for buttons).
+Game Logic Programming: Use the "Brain Screen" to visually define object behaviors and interactions:
+Inputs: Keyboard buttons and on-screen triggers.
+Gates: Logic checks (and more coming soon).
+Actions: Set velocity and acceleration.
+Play Mode: Watch your game world come alive as objects interact based on your design.
+Recent Enhancements:
+
+Brain Screen Released: Bring your game to life with object behaviors and interactions.
+Buttons Take Action: Create interactive buttons that enhance gameplay.
+Enhanced Deletion Process: Confirm object or button removal with a fun card-matching game.
+Additional Notes:
+
+Edit Screen: Your designated space for drawing objects, customizing properties, and accessing the "Brain Screen" (for objects).
+World Edit Screen: Arrange objects in the game world, initiate the deletion process (via the item edit screen), and control the camera for perfect views.
