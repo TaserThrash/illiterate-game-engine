@@ -86,6 +86,7 @@ function draw(){
   }
 
   image(screen, 0, 0, width, height);
+  text("Sorry some attempts to get it running better have entirely broken it sorry", width / 2, height / 2);
 }
 
 function button(img, x, y, w, h, handle, mx, my, ignore){
