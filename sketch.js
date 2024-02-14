@@ -1,7 +1,7 @@
 
 let mouseState = false;
 let pmouseState = false;
-let state = "editWorld";
+let state = "introduction";
 let id = null;
 let objects = [];
 let buttons = [];
