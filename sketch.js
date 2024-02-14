@@ -1,14 +1,14 @@
 
 let mouseState = false;
 let pmouseState = false;
-let state = "introduction";
+let state = "editWorld";
 let id = null;
 let objects = [];
 let buttons = [];
 let framecount = 0;
 let keys = [];
 let pkeys = keys;
-let camera = {x:0, y:0, object: null};
+let camera = {x:0, y:0, object: null, px:0, py:0};
 let temporaryGraphicsObject;
 let screen;
 
@@ -31,6 +31,7 @@ function setup(){
 
 function draw(){
   screen.background("#2376ff");
+  background("#2376ff");
 
   for(let i = 0; i < 256; i++){
     keys[i] = keyIsDown(i);
@@ -86,7 +87,6 @@ function draw(){
   }
 
   image(screen, 0, 0, width, height);
-  text("Sorry some attempts to get it running better have entirely broken it sorry", width / 2, height / 2);
 }
 
 function button(img, x, y, w, h, handle, mx, my, ignore){
@@ -94,7 +94,7 @@ function button(img, x, y, w, h, handle, mx, my, ignore){
     mx = mouseX;
     my = mouseY;
   }
-  //temporaryGraphicsObject.background("black");
+  temporaryGraphicsObject.clear();
   temporaryGraphicsObject.push();
   temporaryGraphicsObject.noStroke();
   for(let y = 0; y < img.length; y++){
@@ -115,10 +115,15 @@ function button(img, x, y, w, h, handle, mx, my, ignore){
     handle();
   }
 
+  screen.push();
+  screen.imageMode(CORNER);
+
   screen.image(
     temporaryGraphicsObject,
     x * width, y * height, w * width, h * height
   );
+
+  screen.pop();
 
   framecount += 1;
 }

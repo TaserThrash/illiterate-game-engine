@@ -201,6 +201,8 @@ function WorldEditScreen(){
                 }
                 setTimeout(() => {
                     state = "play";
+                    camera.px = camera.x;
+                    camera.py = camera.y;
                 }, 200);
             }
         }

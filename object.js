@@ -36,13 +36,15 @@ class Obj {
     }
 
     show(){
-        imageMode(CENTER);
+        screen.push();
+        screen.imageMode(CENTER);
         if(state == "editWorld"){
-            self.image(this.image, (this.x - camera.x) * width, (this.y - camera.y) * height, this.w * width, this.h * height);
+            screen.image(this.image, (this.x - camera.x) * width, (this.y - camera.y) * height, this.w * width, this.h * height);
         }
         if(state == "play"){
-            self.image(this.image, (this.ax - camera.x) * width, (this.ay - camera.y) * height, this.w * width, this.h * height);
+            screen.image(this.image, (this.ax - camera.x) * width, (this.ay - camera.y) * height, this.w * width, this.h * height);
         }
+        screen.pop();
     }
 
     update(){

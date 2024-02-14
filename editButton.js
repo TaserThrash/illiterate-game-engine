@@ -1,10 +1,10 @@
 
 function buttonEdit(obj){
-    imageMode(CORNER);
-    fill("gray");
+    screen.imageMode(CORNER);
+    screen.fill("gray");
     obj.image.noStroke();
-    rect(0, 0, width * 0.4, height * 0.4);
-    image(obj.image, 0, 0, width * 0.4, height * 0.4);
+    screen.rect(0, 0, width * 0.4, height * 0.4);
+    screen.image(obj.image, 0, 0, width * 0.4, height * 0.4);
 
     if(mouseState){
         let c = "#ffffff";

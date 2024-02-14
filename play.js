@@ -223,8 +223,8 @@ function play(){
                 i.stop();
             }
             setTimeout(() => {
-                    camera.x = 0;
-                    camera.y = 0;
+                    camera.x = camera.px;
+                    camera.y = camera.py;
                     state = "editWorld";
                 }, 200
             )

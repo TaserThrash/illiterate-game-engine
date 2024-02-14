@@ -1,10 +1,10 @@
 
 function objectEdit(obj){
-    imageMode(CORNER);
-    fill("gray");
+    screen.imageMode(CORNER);
+    screen.fill("gray");
     obj.image.noStroke();
-    rect(0, 0, width * 0.4, height * 0.4);
-    image(obj.image, 0, 0, width * 0.4, height * 0.4);
+    screen.rect(0, 0, width * 0.4, height * 0.4);
+    screen.image(obj.image, 0, 0, width * 0.4, height * 0.4);
 
     if(mouseState){
         let c = "#ffffff";
@@ -102,12 +102,12 @@ function objectEdit(obj){
         }
     );
 
-    push();
-    fill("red");
-    rect(width * 0.5, height * 0.85, width * 0.1, height * 0.1);
-    fill(ObjectEditScreenOptions.c[0] * 255);
-    rect(width * 0.5, height * 0.8, width * 0.1, height * 0.04);
-    pop();
+    screen.push();
+    screen.fill("red");
+    screen.rect(width * 0.5, height * 0.85, width * 0.1, height * 0.1);
+    screen.fill(ObjectEditScreenOptions.c[0] * 255);
+    screen.rect(width * 0.5, height * 0.8, width * 0.1, height * 0.04);
+    screen.pop();
 
     button(
         [
@@ -130,12 +130,12 @@ function objectEdit(obj){
         }
     );
 
-    push();
-    fill("yellow");
-    rect(width * 0.65, height * 0.85, width * 0.1, height * 0.1);
-    fill(ObjectEditScreenOptions.c[1] * 255);
-    rect(width * 0.65, height * 0.8, width * 0.1, height * 0.04);
-    pop();
+    screen.push();
+    screen.fill("yellow");
+    screen.rect(width * 0.65, height * 0.85, width * 0.1, height * 0.1);
+    screen.fill(ObjectEditScreenOptions.c[1] * 255);
+    screen.rect(width * 0.65, height * 0.8, width * 0.1, height * 0.04);
+    screen.pop();
 
     button(
         [
@@ -158,12 +158,12 @@ function objectEdit(obj){
         }
     );
 
-    push();
-    fill("blue");
-    rect(width * 0.8, height * 0.85, width * 0.1, height * 0.1);
-    fill(ObjectEditScreenOptions.c[2] * 255);
-    rect(width * 0.8, height * 0.8, width * 0.1, height * 0.04);
-    pop();
+    screen.push();
+    screen.fill("blue");
+    screen.rect(width * 0.8, height * 0.85, width * 0.1, height * 0.1);
+    screen.fill(ObjectEditScreenOptions.c[2] * 255);
+    screen.rect(width * 0.8, height * 0.8, width * 0.1, height * 0.04);
+    screen.pop();
 
     button(
         [
