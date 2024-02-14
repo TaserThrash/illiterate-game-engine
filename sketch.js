@@ -84,6 +84,8 @@ function draw(){
   for(let i = 0; i < 256; i++){
     pkeys[i] = keys[i];
   }
+
+  image(screen, 0, 0, width, height);
 }
 
 function button(img, x, y, w, h, handle, mx, my, ignore){

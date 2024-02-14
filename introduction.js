@@ -71,7 +71,7 @@ function introduce(){
         }
     }
 
-    image(
+    screen.image(
         temporaryGraphicsObject,
         0, 0, width, height
     );
