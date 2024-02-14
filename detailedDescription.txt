@@ -1,0 +1,34 @@
+World Edit Screen:
+    on the very top starting at the left going right.
+    since it is important I will say for buttons 2, 3, and 4 the buttons of the game (not the one's built into the engine) and objects are treated as identical.
+    a button with a plus "+" sign which creates an object and brings you to the edit screen.
+    a button with a pencil icon which makes it so you enter the object edit screen to edit any object you hit until you hit another button.
+    a button with two perpendicular lines with arrows on the very ends of the lines which means any object you touch will move with your touch.
+    a similar button the same but now with an animal in the middle which functions much like the previous but resizes rather than moves.
+    a button with a plus sign on top and below a button creates a button and takes you to the button edit screen.
+    a button which takes you to the tutorial menu which I assume you clicked to get here it looks somewhat like an open book.
+    at the very right top a container (like the terrarium from Terraria) with a man in the middle on the ground a sun on the top right and two trees surrounding the man this button takes you to the saving screen.
+
+    in the very bottom right the play button it's a triangle with it's pointy end on the right and the flat end on the left it plays the creation.
+
+    in the middle of the screen
+    this is where the objects are here you will find all the objects you made
+    by dragging while not touching an object you can move the viewplane to look at another part of your creation
+    it will appear as though all objects move for they do move relative to the view plane
+    buttons are not effected by the movement of the viewplane
+
+
+Object / Button Edit Screen:
+    okay I will place a & before the line if it applies to both the object and button edit screens otherwise assume it's only for objects.
+    & in the very top left is a big rectangle it starts it's life completely blank assuming I didn't forget to remove that extremely useful testing feature again.
+    &you can color it with the brush just drag and it will draw where you are touching with the size of the brush.
+    &to change brush size use the arrows directly to the right like the play button on the bottom right of the world screen but rotated 90 degrees in opposite ways.
+    &the up arrow increases brush size and the down decreases.
+    &to change brush color there are three buttons in the bottom right a red a yellow and a blue you can toggle each on and off by just clicking it and that will decide if it will be added in the color (colors are subtractive like I learned in elementary school not what I learned in programming school).
+    &if you want to remove a piece there is a button just left of the red which has a rotated square (abs(x) + abs(y) < s) which will toggle the eraser which overrides the selected color and erases but once toggled back off you go back to the color you had chosen unless you changed it it looks like a trash can.
+    & just left of the erase is the delete this will bring you to a color matching game after which you can permanently delete the object by clicking another trash can if you decide you made a mistake during the card matching game you can hit the back button which starts just above the bottom on the very right goes up to the vertical center and then a arrowed line going left.
+    & in the upper right a button showing a bad drawing of a planet takes you back to the world edit screen
+    a button showing what appears to be an old camera just above the delete button this locks the camera to the object while the game is being played.
+    a below the planet is a gear taking you to the edit properties screen.
+    below that a NES controller taking you to the edit brain screen.
+    even further just above the button for blue is a button showing a fully drawn man in the left capsule a tube connecting it to the right capsule and in the right capsule a half drawn man this button creates a perfect clone of the object.
